@@ -1,6 +1,7 @@
-
 public class Math {
 
+	// 전역변수
+	
 	public static int sum(int n,int m) {
 		return n + m;}
 		
@@ -14,6 +15,9 @@ public class Math {
 		return n / m;}
 	
 	public static void main(String[] args) {
+		
+		// 지역 변수
+		
 		int n = 10;
 		int m = 20;
 		int a;
